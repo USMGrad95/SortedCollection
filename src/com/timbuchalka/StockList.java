@@ -35,6 +35,10 @@ public class StockList {
         }
         return 0;
     }
+    
+    public void myMethod() {
+    	
+    }
 
     public int sellStock(String item, int quantity) {
         StockItem inStock = list.get(item);
